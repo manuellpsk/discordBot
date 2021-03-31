@@ -8,7 +8,7 @@ const ytdl = require('ytdl-core');
 const pool = require('./db');
 let serverMusic = {};
 //Set token bot
-client.login('Mzk4MTUzOTM2NTIxMDAzMDA4.Wk0Hvw.e6JAFX0t_gZyrRkSDxpKkQWoTgs');
+client.login(process.env.TOKEN_BOT);
 
 //Config Bot
 const channelName = 'test'; //Bot listen only this channel
